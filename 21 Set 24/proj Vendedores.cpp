@@ -252,3 +252,8 @@ public:
         } while (opcao != 0);
     }
 };
+int main() {
+    Controller controller;
+    controller.executar();
+    return 0;
+}
